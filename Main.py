@@ -22,8 +22,7 @@ def FilterAndShow(arr,filt):
     Image._show(Image.fromarray(final_resault))
 
 def main():
-    img = Image.open("OriginalImage.jpg")
-    #Image._show(img) # original image
+    img = Image.open("OriginalImage.jpg") 
     imgArray= np.array(img)
     #RGB to GrayScale
     tempArray=RGBtoGray(imgArray)
